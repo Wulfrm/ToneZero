@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111b1d">
+  <meta name="description" content="Find a guitar tone, adapt it to your gear, and keep it with you. A free, installable tone workspace.">
+  <meta name="color-scheme" content="dark">
+  <title>ToneZero — Your tone, your gear</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c9fa79'/%3E%3Ctext x='32' y='47' text-anchor='middle' font-size='48'%3E%E2%88%BF%3C/text%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workspace</a>
+  <header class="topbar">
+    <a class="brand" href="#explore" aria-label="ToneZero home"><span class="brandmark" aria-hidden="true">∿</span>tonezero</a>
+    <nav aria-label="Main navigation">
+      <button class="nav-item active" data-view="explore">Tone explorer</button>
+      <button class="nav-item" data-view="rig">My rig</button>
+      <button class="nav-item" data-view="saved">Saved tones <span id="saved-count">0</span></button>
+    </nav>
+    <button class="button subtle install-button" data-action="install"><span aria-hidden="true">↓</span> Install app</button>
+  </header>
+  <p id="storage-warning" class="storage-warning" role="status" hidden>Device storage is unavailable. Changes are in memory only. Export a backup before closing.</p>
+  <main id="main" tabindex="-1"></main>
+  <footer class="footer"><span>BUILT FOR THE WAY YOU PLAY.</span><div><span id="connection-state">Free to play. Yours to keep.</span><button data-action="settings">App settings</button><button data-action="about">About & sources</button></div></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="notice">Enable JavaScript to use the tone workspace. Your tones stay on this device.</p></noscript>
+</body>
+</html>

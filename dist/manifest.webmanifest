@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "ToneZero — Guitar Tone Workspace",
+  "short_name": "ToneZero",
+  "description": "Find a guitar tone, adapt it to your gear, and save your settings.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101819",
+  "theme_color": "#111b1d",
+  "categories": ["music", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"./icons/icon-maskable.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"My rig","url":"./#rig","icons":[{"src":"./icons/icon-192.png","sizes":"192x192"}]},
+    {"name":"Saved tones","url":"./#saved","icons":[{"src":"./icons/icon-192.png","sizes":"192x192"}]}
+  ]
+}
