@@ -1,0 +1,8 @@
+{
+  "name": "tonezero",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node scripts/serve.mjs", "test": "node tests/run.mjs", "check": "node --experimental-vm-modules scripts/check.mjs" },
+  "engines": { "node": ">=20" }
+}
