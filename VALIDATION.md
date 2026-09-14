@@ -13,9 +13,13 @@
 - No browser error/warning logs observed in the inspected app preview.
 - Browser offline fallback verified by stopping the local server, reloading the installed service-worker scope, and successfully searching the local catalog. The preview server was then restarted. AI stays network-dependent.
 
+## Verified on GitHub Pages
+
+- GitHub Actions deployment succeeded and the app was opened at https://wulfrm.github.io/ToneZero/ on 14 September 2026.
+- Hosted song search returned both Nirvana recipes. The earlier branch-based README deployment was replaced by the app workflow; Pages now uses GitHub Actions.
+
 ## Still requires the owner’s connected accounts / devices
 
-- GitHub Pages must report a successful deployment before its URL is considered live.
 - Cloudflare Worker deployment, real Turnstile verification and real Gemini research must be verified after account setup and secrets are connected.
 - Actual installation and interaction on the user’s Galaxy S26 Ultra and Tab S10 have not been tested. Responsive browser testing does not replace physical-device verification.
 - This application does not measure or process audio; no audio-matching accuracy claim has been tested or made.

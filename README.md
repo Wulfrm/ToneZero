@@ -1,5 +1,7 @@
 # ToneZero
 
+[Open ToneZero](https://wulfrm.github.io/ToneZero/)
+
 A free, installable guitar tone workspace for Android, tablets and desktop browsers. Original interface inspired by the atmosphere and interaction design of Why Zero; product workflow inspired by ToneAdapt. No proprietary code, paywalled presets, artwork or logos were copied.
 
 ## What works
@@ -40,7 +42,7 @@ Target repository: [Wulfrm/ToneZero](https://github.com/Wulfrm/ToneZero).
 1. Push these files to `main`.
 2. In the repository, open **Settings → Pages → Build and deployment → Source → GitHub Actions**.
 3. Open **Actions → Deploy ToneZero to GitHub Pages** and run the workflow if it did not start automatically.
-4. Use the URL shown by the successful deployment. The expected project URL is `https://wulfrm.github.io/ToneZero/`; it is not live merely because it is listed here.
+4. Use the URL shown by the successful deployment: https://wulfrm.github.io/ToneZero/. The initial app deployment was verified on 14 September 2026.
 
 Only `dist/` is published. Server code and private secrets are never part of the Pages artifact. Public repositories are eligible for GitHub Free Pages, subject to GitHub's limits. See [GitHub Pages availability](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
 

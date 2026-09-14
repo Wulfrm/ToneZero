@@ -23,7 +23,7 @@ Keep the **secret key** private. The **site key** is public and belongs in the f
 The simplest repeatable route uses Cloudflare's official Wrangler CLI. Use Node.js 22 or later with npm installed. In the repository root:
 
 ```sh
-npx wrangler@latest login
+npx wrangler@latest login --scopes account:read user:read workers_scripts:write
 npx wrangler@latest deploy --config worker/wrangler.jsonc
 npx wrangler@latest secret put GEMINI_API_KEY --config worker/wrangler.jsonc
 npx wrangler@latest secret put TURNSTILE_SECRET_KEY --config worker/wrangler.jsonc
