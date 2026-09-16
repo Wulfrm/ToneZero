@@ -6,7 +6,8 @@
   "workers_dev": true,
   "vars": {
     "ALLOWED_ORIGIN": "https://wulfrm.github.io",
-    "TURNSTILE_HOSTNAME": "wulfrm.github.io"
+    "TURNSTILE_HOSTNAME": "wulfrm.github.io",
+    "RESEARCH_PROVIDER": "tavily"
   },
   "ratelimits": [{
     "name": "TONE_RATE_LIMITER",
