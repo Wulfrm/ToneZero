@@ -3,5 +3,5 @@
 export const CONFIG = Object.freeze({
   apiBase: 'https://tonezero-research.oscar-p-beckett.workers.dev',
   turnstileSiteKey: '0x4AAAAAAEzcjgttFAh_vddq',
-  version: '1.0.1'
+  version: '1.1.0'
 });
